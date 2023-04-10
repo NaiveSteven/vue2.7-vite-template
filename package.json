@@ -1,0 +1,63 @@
+{
+  "name": "vue2.7",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint:eslint": "eslint \"src/**/*.{vue,js,jsx}\" --fix",
+    "lint:stylelint": "stylelint \"src/**/*.{vue,css,scss}\" --fix"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-ui": "^2.15.13",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.14",
+    "vue": "^2.7.5",
+    "vue-router": "^3.5.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@unocss/reset": "^0.51.2",
+    "@unocss/transformer-directives": "^0.51.2",
+    "@unocss/transformer-variant-group": "^0.51.2",
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "@vitejs/plugin-vue2-jsx": "^1.1.0",
+    "autoprefixer": "^10.4.7",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "postcss-html": "^1.4.1",
+    "prettier": "^2.7.1",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "stylelint": "13.13.1",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-standard": "22.0.0",
+    "stylelint-order": "5.0.0",
+    "stylelint-scss": "3.21.0",
+    "unocss": "^0.51.2",
+    "unplugin-auto-import": "^0.15.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^2.9.9",
+    "vue-eslint-parser": "^9.0.3"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "lint-staged": {}
+}
