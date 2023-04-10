@@ -16,8 +16,8 @@ module.exports = {
   parserPreset: {
     parserOpts: {
       headerPattern:
-        /(^(feat|fix|docs|pref|init|add|build|chore|ci|del|refactor|revert|style|test|merge)+\(([A-Za-z]+-[0-9]+)\): (.+){1,50}.*)/,
+        /(^(feat|fix|docs|pref|init|add|build|chore|ci|del|refactor|revert|style|test|merge): (.+){1,50}.*)/,
       headerCorrespondence: ['type', 'scope', 'subject'],
     },
   },
-}
+};
