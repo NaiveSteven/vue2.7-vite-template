@@ -2,9 +2,7 @@
   <div class="nav-top">
     <div flex>
       <div class="menu-fold" @click="toggleIsCollapse">
-        <el-icon>
-          <component :is="isCollapse ? 'i-fold' : 'i-expand'" />
-        </el-icon>
+        <i :class="isCollapse ? 'el-icon-s-fold' : 'el-icon-s-unfold'" />
       </div>
     </div>
     <AvatarInfo />
@@ -15,17 +13,17 @@
   import AvatarInfo from './AvatarInfo.vue';
 
   const props = defineProps({
-    modelValue: { type: Boolean, default: false },
+    value: { type: Boolean, default: false },
     menus: { type: Array, default: () => [] },
   });
-  const emits = defineEmits(['update:modelValue']);
+  const emits = defineEmits(['input']);
 
   const isCollapse = computed({
     set(val) {
-      emits('update:modelValue', val);
+      emits('input', val);
     },
     get() {
-      return props.modelValue;
+      return props.value;
     },
   });
 
