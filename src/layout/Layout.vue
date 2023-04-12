@@ -41,6 +41,11 @@
       icon: 'el-icon-s-tools',
       label: 'pinia',
     },
+    {
+      name: 'iframe',
+      icon: 'el-icon-s-tools',
+      label: 'iframe',
+    },
   ]);
 </script>
 <style lang="scss"></style>

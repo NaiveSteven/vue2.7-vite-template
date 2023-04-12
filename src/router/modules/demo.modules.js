@@ -18,6 +18,12 @@ export default [
         component: () => import('@/views/demo/pinia.vue'),
         meta: { title: 'Pinia使用' },
       },
+      {
+        path: 'iframe',
+        name: 'iframe',
+        component: () => import('@/views/demo/iframe.vue'),
+        meta: { title: 'Iframe使用' },
+      },
     ],
   },
 ];

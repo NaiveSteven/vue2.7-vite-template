@@ -1,3 +1,3 @@
-import demoRouteModules from './demo.modules'
+import demoRouteModules from './demo.modules';
 
-export default [...demoRouteModules]
+export default [...demoRouteModules];
