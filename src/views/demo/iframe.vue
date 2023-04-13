@@ -1,15 +1,12 @@
 <template>
   <div>
-    <iframe
-      class="iframe-style"
-      src="https://juejin.cn/post/7218117377052377143"
-    />
+    <iframe class="iframe-style" :src="route.meta.url" />
   </div>
 </template>
 
-<scrip setup>
-export default {}
-</scrip>
+<script setup>
+  const route = useRoute();
+</script>
 <style lang="scss" scoped>
   .iframe-style {
     width: 100%;

@@ -19,10 +19,22 @@ export default [
         meta: { title: 'Pinia使用' },
       },
       {
-        path: 'iframe',
-        name: 'iframe',
+        path: 'iframe1',
+        name: 'iframe1',
         component: () => import('@/views/demo/iframe.vue'),
-        meta: { title: 'Iframe使用' },
+        meta: {
+          title: 'Iframe使用',
+          url: 'https://juejin.cn/post/7218117377052377143',
+        },
+      },
+      {
+        path: 'iframe2',
+        name: 'iframe2',
+        component: () => import('@/views/demo/iframe.vue'),
+        meta: {
+          title: 'Iframe使用',
+          url: 'https://juejin.cn/post/7220776393374679096',
+        },
       },
     ],
   },

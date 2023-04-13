@@ -42,9 +42,14 @@
       label: 'pinia',
     },
     {
-      name: 'iframe',
+      name: 'iframe1',
       icon: 'el-icon-s-tools',
-      label: 'iframe',
+      label: 'iframe1',
+    },
+    {
+      name: 'iframe2',
+      icon: 'el-icon-s-tools',
+      label: 'iframe2',
     },
   ]);
 </script>
